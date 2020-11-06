@@ -1,0 +1,311 @@
+/* =================================================
+ *  Custom PageLayoutView CSS provided by EXT:theme
+ * =================================================
+ */
+
+
+/*
+ * Generic Bootstrap Helper classes
+ * 	- bootstrap classes which aren't provided by TYPO3 core
+ */
+.text-left {
+	text-align: left;
+}
+
+
+/*
+ * Generic  Helper classes
+ */
+.theme-opacity-5 {
+	opacity: .5;
+}
+
+.white-space-normal {
+	white-space: normal;
+}
+
+.theme-area-text {
+	font-size: 0.9em;
+	color: #c8c8c8;
+	margin: 0 0 3px;
+	display: block;
+}
+
+.theme-margin-top-0 {
+	margin-top: 0 !important;
+}
+
+
+.theme-margin-bottom-15:not(:last-child),
+.theme-mb-15:not(:last-child){
+  margin-bottom: 15px !important;
+}
+
+.theme-mb-10:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.theme-mb-5:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.theme-border-hover {
+  border: 1px solid transparent;
+}
+.theme-border-hover:hover {
+  border: 1px solid rgba(0,0,0,.4);
+  background: rgba(0,0,0,.4);
+}
+.theme-danger {
+  background-color: #efc7c7 !important;
+}
+.theme-text-bold {
+  font-weight: bold;
+}
+
+/*
+ * tt_content_drawFooter Enrichment
+ */
+.t3-page-ce-info > br:first-child {
+	display: none; /* Remove superfluous first br tag in footer section */
+}
+.theme-footer {
+
+}
+.theme-footer > * {
+	margin-bottom: 3px;
+}
+.theme-footer > *:last-child {
+	margin-bottom: 0;
+}
+.theme-footer-ctype {
+	text-align: right;
+	margin-bottom: -4px;
+}
+.theme-footer-ctype-text {
+	opacity: .3;
+	font-size: 10px;
+}
+.theme-footer-ctype-text:hover {
+	opacity: 1;
+}
+.theme-footer-badges {
+	text-align: right;
+}
+.theme-footer-badges .badge {
+	font-weight: normal;
+	background: #fff;
+	color:#444;
+	font-size: 10px;
+	padding: 4px 8px;
+	margin-left: 4px;
+	margin-bottom: 3px;
+	cursor: default;
+	border: 1px solid #ccc;
+	box-shadow: inset 1px 1px #eee;
+}
+.theme-footer-badges .badge.bg-info {
+	background: rgb(218, 237, 255);
+	border-color: transparent;
+}
+.theme-footer-badges .badge:hover {
+	background-color: #737373;
+	color: #fff;
+	border-color: transparent;
+	box-shadow: none;
+}
+
+/*
+ * tt_content_drawItem Enrichment
+ */
+.theme-section {
+	margin: 15px 0;
+}
+.theme-section:last-child {
+	margin-bottom: 0;
+}
+.theme-section > .row:last-child > [class^="col"] > :last-child {
+	margin-bottom: 0;
+}
+.theme-notification {
+	padding: 20px;
+	display: block;
+	font-weight: bold;
+}
+.theme-fileicon {
+	background: #858585;
+	border-radius: 3px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 3px 3px;
+}
+.theme-file {
+	padding-bottom: 4px;
+}
+.theme-file-left {
+	min-width: 41px;
+	text-align: right;
+}
+.theme-file-body {
+
+}
+.theme-file-additionalinfo {
+	font-size: 0.9em;
+	padding-left: 5px;
+}
+
+[class^=theme-backendpreview-] > .container-fluid > .row,
+[class^=theme-backendpreview-] .container-fluid.theme-section > .row,
+[class^=theme-backendpreview-] > .theme-content-edit-link > .container-fluid > .row {
+	margin-right: -30px;
+	margin-left: -30px;
+}
+
+[class^=theme-backendpreview-] > .container-fluid > .row .row,
+[class^=theme-backendpreview-] .container-fluid.theme-section > .row .row,
+[class^=theme-backendpreview-] > .theme-content-edit-link > .container-fluid > .row .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/*
+ * CE theme_collapsible_text
+ */
+.theme-backendpreview-theme_collapsible_text .collapsing + .theme-infotext-hidden,
+.theme-backendpreview-theme_collapsible_text .collapse.in + .theme-infotext-hidden {
+	opacity: 0;
+}
+.theme-backendpreview-theme_collapsible_text .collapse.in + .theme-infotext-hidden {
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/*
+ * CE theme_download_box
+ */
+.theme-backedpreview-theme_download_box {
+
+}
+
+/*
+ * CE theme_youtube
+ */
+
+/* Div around every youtube video element */
+.theme-youtube-video {
+
+}
+	.theme-youtube-video-heading {
+		margin-bottom: .7em;
+	}
+
+
+/*
+ * CE theme_logo_cemetery
+ */
+.theme-backendpreview-flexboxgrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.theme-backendpreview-flexboxgrid > * {
+  flex: 0 1 98%;
+}
+
+@media screen and (min-width: 576px) {
+  .theme-backendpreview-flexboxgrid > * {
+    flex: 0 0 48%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .theme-backendpreview-flexboxgrid > * {
+    flex: 0 0 32%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .theme-backendpreview-flexboxgrid > * {
+    flex: 0 0 23%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .theme-backendpreview-flexboxgrid > * {
+    flex: 0 0 20%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .theme-backendpreview-flexboxgrid > * {
+    flex: 0 0 16%;
+  }
+}
+
+.theme-backendpreview-flexboxgrid-item {
+
+}
+
+.theme-style-boxed {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 15px 15px;
+  background-color: rgba(0,0,0,.01);
+}
+
+
+/*
+ * CSS Only Tabs
+ */
+.theme-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1336px;
+}
+
+.theme-tabs-input {
+  position: absolute;
+  opacity: 0;
+}
+
+.theme-tabs-label {
+  padding: 10px 20px;
+  background: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.1s, color 0.1s;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .theme-tabs-label {
+    width: auto;
+  }
+}
+.theme-tabs-label:hover {
+  background: #fff;
+}
+.theme-tabs-label:active {
+  background: #ddd;
+}
+
+.theme-tabs-input:focus + .theme-tabs-label {
+}
+
+.theme-tabs-input:checked + .theme-tabs-label {
+  background: #fff;
+  color: #000;
+}
+
+.theme-tabs-panel {
+  display: none;
+  padding: 0 0;
+  background: white;
+}
+@media screen and (min-width: 768px) {
+  .theme-tabs-panel {
+    order: 99;
+  }
+}
+.theme-tabs-input:checked + .theme-tabs-label + .theme-tabs-panel {
+  display: block;
+}

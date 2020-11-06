@@ -1,0 +1,9 @@
+[data-bgcolor] {
+  background-color: var(--teaser-image-fullwidth-bgcolor);
+}
+
+@each $key, $value in $theme-colors {
+  [data-bgcolor="#{$key}"] {
+    background-color: _get($theme-colors, $key);
+  }
+}

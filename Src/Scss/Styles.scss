@@ -1,0 +1,30 @@
+// the supseven main style file.
+
+// first, import the sassdash lib for better sass features
+@import "../../node_modules/sassdash/scss/sassdash";
+
+// some usefull functions
+@import "Functions/**/*.scss";
+
+// import global variables
+@import "Abstracts/variables";
+@import "Abstracts/print";
+
+// mixins
+@import "Mixins/**/*";
+
+// vendor styles
+@import "Vendor/**/*.scss";
+
+// utilities
+@import "Utilities/**/*.scss";
+
+// base changes
+//@import "Base/**/*.scss";
+
+// Design Elements
+//@import "_Atoms/**/*.scss";
+//@import "_Molecules/**/*.scss";
+//@import "_Organisms/**/*.scss";
+
+@debug 'styles.scss';

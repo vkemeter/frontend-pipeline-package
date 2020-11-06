@@ -1,0 +1,13 @@
+{
+  "name": "supseven-fe-pipeline",
+  "version": "1.0.0",
+  "description": "The Supseven Frontend Pipeline",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "s7-fe-pipeline-main": "git+ssh://git@gitlab.sup7.at:10022/supseven/s7-fe-pipeline-main.git#parent"
+  },
+  "scripts": {},
+  "author": "Volker Kemeter",
+  "license": "MIT"
+}

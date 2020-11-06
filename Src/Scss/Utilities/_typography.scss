@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains all helper classes.
+// -----------------------------------------------------------------------------
+
+.word-break-all {
+	word-break: break-all;
+}
+
+.inherit-typography {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  font-kerning: inherit;
+  font-stretch: inherit;
+}

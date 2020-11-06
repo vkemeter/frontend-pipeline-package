@@ -1,0 +1,66 @@
+// load all variables
+@import "breakpoints";
+@import "container";
+//@import "icomoon";
+@import "colors";
+@import "aspect-ratios";
+
+// font settings
+//$font-base-directory: '../Webfonts/';
+//$font-family-sans-serif: 'Source Sans Pro', Helvetica, Arial, Geneva, Verdana, sans-serif;
+//$font-family-link-arrow: Arial, Helvetica, sans-serif;
+
+// set font size in px values per breakpoint
+// e.g.
+// md: 18px,
+// xl: 20px,
+$base-font-size: (
+  default: 16px,
+);
+
+// override font sizes for each type and breakpoint
+// e.g.
+// xxl: (
+//  navigation: (
+//    '.overlay-navigation a': (
+//      font-size: 45px,
+//    ),
+//  ),
+// ),
+$font-settings: (
+  default: (
+    global: (
+      body: (
+        font-size: 1rem,
+      ),
+    ),
+  ),
+);
+
+// override or add colors here
+// if you need them only in the
+// scss context. if you need them
+// in the typo3 backend, use the
+// config.yaml and run the
+// Misc:CONFIG gulp task
+$colors: map-merge((
+  //testcolor: green
+),
+  $colors
+);
+
+// set theme colors
+$theme-colors: (
+);
+
+// spacers for margin and padding spaces
+// use classnames like px-fg or px-lg-fg
+// for full gutter padding on x-axis or
+// full gutter padding lg or bigger on x-axis
+$spacers: (
+  //hg: $grid-gutter-width / 2,
+  //fg: $grid-gutter-width,
+  //dg: $grid-gutter-width * 2,
+  //tg: $grid-gutter-width * 3,
+  //qg: $grid-gutter-width * 4,
+);

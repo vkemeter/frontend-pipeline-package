@@ -1,0 +1,19 @@
+# you should remove this from your gitignore after first install
+config.js
+config.yaml
+gulpfile.js
+yarn.lock
+theme
+
+# dev stuff
+.idea
+local
+node_modules
+.DS_Store
+
+# auto generated stuff
+Src/Scss/Abstracts/_breakpoints.scss
+Src/Scss/Abstracts/_container.scss
+Src/Scss/Abstracts/_icomoon.scss
+Src/Scss/Abstracts/_colors.scss
+Src/Scss/Abstracts/_aspect-ratios.scss
