@@ -1,5 +1,7 @@
 # frontend pipeline example package 
 
-1. add this package to your package.json
-    1. yarn add https://github.com/vkemeter/frontend-pipeline-main.git
-2. see the newyle popped up gulpfile, show gulp tasks and configure on your demand 
+1. clone this repository
+2. remove git folder
+3. yarn install
+
+you are ready to go.
