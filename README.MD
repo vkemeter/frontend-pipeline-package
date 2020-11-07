@@ -3,6 +3,11 @@
 1. clone this repository
 2. remove git folder
 3. yarn install
+4. modify config.js paths for your need
+    1. build: is the path where your package.json is located
+    2. theme is the path, where your TYPO3 package is located
+    3. webRoot is you public WebRoot path
+5. modify config.yaml breakpoints and possible file exports for your need.
 
 you are ready to go.
 
