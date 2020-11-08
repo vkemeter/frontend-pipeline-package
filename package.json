@@ -4,7 +4,7 @@
   "description": "The Supseven Frontend Pipeline Example Package",
   "main": "index.js",
   "dependencies": {
-    "frontend-pipeline-main": "https://github.com/vkemeter/frontend-pipeline-main#v1.0.1"
+    "frontend-pipeline-main": "https://github.com/vkemeter/frontend-pipeline-main#v1.0.2"
   },
   "devDependencies": {},
   "scripts": {},
