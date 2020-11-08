@@ -1,6 +1,6 @@
 {
   "name": "frontend-pipeline-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Supseven Frontend Pipeline Example Package",
   "main": "index.js",
   "dependencies": {

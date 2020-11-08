@@ -1,5 +1,0 @@
-@each $key, $value in $theme-colors {
-  [data-color="#{$key}"], .color-#{$key} {
-    color: _get($theme-colors, $key);
-  }
-}

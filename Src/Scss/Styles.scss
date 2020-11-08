@@ -4,27 +4,22 @@
 @import "../../node_modules/sassdash/scss/sassdash";
 
 // some usefull functions
+@import "../../node_modules/frontend-pipeline-main/Src/Scss/Functions/**/*.scss";
 @import "Functions/**/*.scss";
 
 // import global variables
 @import "Abstracts/variables";
-@import "Abstracts/print";
 
 // mixins
+@import "../../node_modules/frontend-pipeline-main/Src/Scss/Mixins/**/*.scss";
 @import "Mixins/**/*";
 
 // vendor styles
 @import "Vendor/**/*.scss";
 
 // utilities
+@import "../../node_modules/frontend-pipeline-main/Src/Scss/Utilities/**/*.scss";
 @import "Utilities/**/*.scss";
 
 // base changes
-//@import "Base/**/*.scss";
-
-// Design Elements
-//@import "_Atoms/**/*.scss";
-//@import "_Molecules/**/*.scss";
-//@import "_Organisms/**/*.scss";
-
-@debug 'styles.scss';
+@import "../../node_modules/frontend-pipeline-main/Src/Scss/Base/**/*.scss";
