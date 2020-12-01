@@ -6,10 +6,10 @@ yarn.lock
 theme
 
 # dev stuff
+.DS_Store
 .idea
 local
 node_modules
-.DS_Store
 
 # auto generated stuff
 Src/Scss/Abstracts/_breakpoints.scss
@@ -17,3 +17,6 @@ Src/Scss/Abstracts/_container.scss
 Src/Scss/Abstracts/_icomoon.scss
 Src/Scss/Abstracts/_colors.scss
 Src/Scss/Abstracts/_aspect-ratios.scss
+aspect-ratios.yaml
+colors.yaml
+Breakpoints.constants.typoscript
