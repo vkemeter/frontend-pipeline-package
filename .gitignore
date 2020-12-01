@@ -1,5 +1,6 @@
 # you should remove this from your gitignore after first install
 config.js
+config.json
 config.yaml
 gulpfile.js
 yarn.lock
