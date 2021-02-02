@@ -33,5 +33,6 @@ Includes the FE-Pipeline Main Package with following Features:
 * family.scss: 1.0.8
 * gulp: 4.0.2
 * jquery: 3.5.1
+* backstopjs
 
 and a few more.

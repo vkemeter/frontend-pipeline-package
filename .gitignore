@@ -21,3 +21,6 @@ Src/Scss/Abstracts/_aspect-ratios.scss
 aspect-ratios.yaml
 colors.yaml
 Breakpoints.constants.typoscript
+Test/backstop/backstop_data
+Test/backstop/backstop.config.js
+Test/backstop/*.example.*
