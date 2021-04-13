@@ -13,6 +13,14 @@ local
 node_modules
 
 # auto generated stuff
+app/public/android-chrome*
+app/public/apple-touch*
+app/public/browserconfig.xml
+app/public/favicon*
+app/public/mstile*
+app/public/safari-pinned*
+app/public/site.webmanifest
+
 Src/Scss/Abstracts/_breakpoints.scss
 Src/Scss/Abstracts/_container.scss
 Src/Scss/Abstracts/_icomoon.scss
