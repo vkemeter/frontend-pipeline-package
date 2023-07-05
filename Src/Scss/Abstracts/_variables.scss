@@ -44,17 +44,18 @@ $colors: map-merge((
 );
 
 // set theme colors
-$theme-colors: (
+$theme-colors: map-merge((),
+  $theme-colors
 );
 
 // spacers for margin and padding spaces
 // use classnames like px-fg or px-lg-fg
 // for full gutter padding on x-axis or
 // full gutter padding lg or bigger on x-axis
-$spacers: (
+$spacers: map-merge((
   //hg: $grid-gutter-width / 2,
   //fg: $grid-gutter-width,
   //dg: $grid-gutter-width * 2,
   //tg: $grid-gutter-width * 3,
   //qg: $grid-gutter-width * 4,
-);
+), $spacers);
