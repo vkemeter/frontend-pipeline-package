@@ -1,10 +1,10 @@
 {
   "name": "frontend-pipeline-package",
-  "version": "1.5.1",
+  "version": "2.0.18",
   "description": "The Supseven Frontend Pipeline Example Package",
   "main": "index.js",
   "dependencies": {
-    "frontend-pipeline-main": "https://github.com/vkemeter/frontend-pipeline-main#v1.5.1"
+    "frontend-pipeline-main": "file:../frontend-pipeline-main"
   },
   "devDependencies": {},
   "scripts": {},

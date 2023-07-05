@@ -1,7 +1,9 @@
 // the supseven main style file.
 
-// first, import the sassdash lib for better sass features
-@import "../../node_modules/sassdash/scss/sassdash";
+@import "../../node_modules/frontend-pipeline-main/Src/Scss/Sassdash/sassdash";
+
+// vendor styles
+@import "Vendor/**/*.scss";
 
 // some usefull functions
 @import "../../node_modules/frontend-pipeline-main/Src/Scss/Functions/**/*.scss";
@@ -13,9 +15,6 @@
 // mixins
 @import "../../node_modules/frontend-pipeline-main/Src/Scss/Mixins/**/*.scss";
 @import "Mixins/**/*";
-
-// vendor styles
-@import "Vendor/**/*.scss";
 
 // utilities
 @import "../../node_modules/frontend-pipeline-main/Src/Scss/Utilities/**/*.scss";
